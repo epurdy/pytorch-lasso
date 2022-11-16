@@ -122,7 +122,7 @@ def iterative_ridge(z0, x, weight, alpha=1.0, tol=1e-5, tikhonov=1e-4, eps=None,
 
         # check for convergence
         if update.abs().sum() <= tol:
-            msg = _status_message['success']
+            msg = 'win!' # _status_message['success']
             break
 
         # check for NaN
