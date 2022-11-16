@@ -9,6 +9,6 @@ setup(
     description='L1-regularized least squares with PyTorch',
     packages=find_packages(),    
     install_requires=[
-      'torch >= 1.13.0'
+     # 'torch >= 1.13.0'
     ],
 )
